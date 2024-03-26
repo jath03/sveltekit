@@ -29,6 +29,7 @@
 		"lint": "prettier --check .",
 		"format": "pnpm lint --write",
 		"check": "tsc --skipLibCheck",
+		"prepare": "npm run build",
 		"prepublishOnly": "pnpm build"
 	},
 	"dependencies": {
